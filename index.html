@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+</head>
+
+<body>
+    <header class="jumbotron">
+        <h1 class="display-3 title">Work Day Scheduler</h1>
+        <p class="lead title">A simple calendar app for scheduling your work day</p>
+        <p id="currentDay" class="lead"></p>
+        <h3 id="clock"></h3>
+    </header>
+    <div class="container">
+        <div class="time" rows="3" cols="20">
+            <h2>9am</h2>
+        </div>
+        <div id="hour9">
+            <textarea id="nine" class="boxarea" rows="4" cols="300">
+        
+        </textarea>
+
+            <button onclick="save9()" type="button" class="btn btn-dark btnman">save</button>
+        </div>
+
+        <div class="time" rows="3" cols="20">
+            <h2>10am</h2>
+        </div>
+        <div id="hour 10">
+            <textarea id="ten" class="boxarea" rows="4" cols="150">
+            
+        </textarea>
+            <button onclick="save10()" type="button" class="btn btn-dark btnman">save</button>
+        </div>
+
+        <div class="time" rows="3" cols="20">
+            <h2>11am</h2>
+        </div>
+        <div id="hour11">
+            <textarea id="eleven" class="boxarea" rows="4" cols="150">
+            
+        </textarea>
+            <button onclick="save11()" type="button" class="btn btn-dark btnman">save</button>
+        </div>
+
+        <div class="time" rows="3" cols="20">
+            <h2>12pm</h2>
+        </div>
+        <div id="hour12">
+            <textarea id="twelve" class="boxarea" rows="4" cols="150">
+            
+        </textarea>
+            <button onclick="save12()" type="button" class="btn btn-dark btnman">save</button>
+        </div>
+
+        <div class="time" rows="3" cols="20">
+            <h2>1pm</h2>
+        </div>
+        <div id="hour1">
+            <textarea id="one" class="boxarea" rows="4" cols="150">
+            
+        </textarea>
+            <button onclick="save1()" type="button" class="btn btn-dark btnman">save</button>
+        </div>
+
+        <div class="time" rows="3" cols="20">
+            <h2>2pm</h2>
+        </div>
+        <div id="hour2">
+            <textarea id="two" class="boxarea" rows="4" cols="150">
+            
+        </textarea>
+            <button onclick="save2()" type="button" class="btn btn-dark btnman">save</button>
+        </div>
+
+        <div class="time" rows="3" cols="20">
+            <h2>3pm</h2>
+        </div>
+        <div id="hour3">
+            <textarea id="three" class="boxarea" rows="4" cols="150">
+            
+        </textarea>
+            <button onclick="save3()" type="button" class="btn btn-dark btnman">save</button>
+        </div>
+
+        <div class="time" rows="3" cols="20">
+            <h2>4pm</h2>
+        </div>
+        <div id="hour4">
+            <textarea id="four" class="boxarea" rows="4" cols="150">
+            
+        </textarea>
+            <button onclick="save4()" type="button" class="btn btn-dark btnman">save</button>
+        </div>
+
+        <div class="time" rows="3" cols="20">
+            <h2>5pm</h2>
+        </div>
+        <div id="hour5">
+            <textarea id="five" class="boxarea" rows="4" cols="150">
+                
+        </textarea>
+            <button onclick="save5()" type="button" class="btn btn-dark btnman">save</button>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="moment.js"></script>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
